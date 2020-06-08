@@ -1,6 +1,17 @@
 # Elastic-Search-Logstash-Kibana-ELK-Stack-
 Big Data Tools
 
+## Prerequisites-
+Java Runtime
+
+Verify installed version of Java Runtime Environment or install it. Latest JDK is strongly recommended.
+
+Check available JDK using command line: java -version. Expected output: java version 1.8.0_73. Last numbers might be different, but 1.8 is expected.
+
+Check system variables. Required environment variable: JAVA_HOME pointing to install location of JDK. Example:
+JAVA_HOME: C:\Program Files\Java\jre1.8.0_73
+
+
 For Big Data Analysis, Log Analysis and Monitoring modern applications.
 
 Log management and analytics solution that enables engineers to overcome the challenge of monitoring what are highly distributed, dynamic and noisy environments. 
@@ -17,7 +28,7 @@ Log management and analytics solution that enables engineers to overcome the cha
 Filebeat is part of the Elastic Stack, meaning it works seamlessly with Logstash, Elasticsearch, and Kibana. Whether you want to transform or enrich your logs and files with Logstash, fiddle with some analytics in Elasticsearch, or build and share dashboards in Kibana, Filebeat makes it easy to ship your data to where it matters most.
 Filebeat is a log shipper belonging to the Beats family — a group of lightweight shippers installed on hosts for shipping different kinds of data into the ELK Stack for analysis. Each beat is dedicated to shipping different types of information — Winlogbeat, for example, ships Windows event logs, Metricbeat ships host metrics, and so forth. Filebeat, as the name implies, ships log files.
 
-Download Filebeat- [Link](https://www.elastic.co/downloads/beats/filebeat)
+[Download](https://www.elastic.co/downloads/beats/filebeat) Filebeat- 
 
 ### Logstash
 Logstash is the data collection pipeline tool. It collects data inputs and feeds into the Elasticsearch. It gathers all types of data from the different source and makes it available for further use.
@@ -26,17 +37,17 @@ Logstash can unify data from disparate sources and normalize the data into your 
 
 It consists of three components:
 
-    Input: passing logs to process them into machine understandable format
-    Filters: It is a set of conditions to perform a particular action or event
-    Output: Decision maker for processed event or log 
+Input: passing logs to process them into machine understandable format
+Filters: It is a set of conditions to perform a particular action or event
+Output: Decision maker for processed event or log 
 
 Features of Logstash
 
-    Events are passed through each phase using internal queues
-    Allows different inputs for your logs
-    Filtering/parsing for your logs
+Events are passed through each phase using internal queues
+Allows different inputs for your logs
+Filtering/parsing for your logs
 
-Download Logstash- [Link](https://www.elastic.co/downloads/logstash)
+[Download](https://www.elastic.co/downloads/logstash) Logstash- 
 
 ### ElasticSearch 
 Elasticsearch is a NoSQL database. It is based on Lucene search engine, and it is built with RESTful APIS. It offers simple deployment, maximum reliability, and easy management. It also offers advanced queries to perform detail analysis and stores all the data centrally. It is helpful for executing a quick search of the documents.
@@ -45,16 +56,16 @@ Elasticsearch also allows you to store, search and analyze big volume of data. I
 
 Features of Elastic search:
 
-    Open source search server is written using Java
-    Used to index any kind of heterogeneous data
-    Has REST API web-interface with JSON output
-    Full-Text Search
-    Near Real Time (NRT) search
-    Sharded, replicated searchable, JSON document store
-    Schema-free, REST & JSON based distributed document store
-    Multi-language & Geolocation support 
+Open source search server is written using Java
+Used to index any kind of heterogeneous data
+Has REST API web-interface with JSON output
+Full-Text Search
+Near Real Time (NRT) search
+Sharded, replicated searchable, JSON document store
+Schema-free, REST & JSON based distributed document store
+Multi-language & Geolocation support 
     
-Download ElasticSearch- [Link](https://www.elastic.co/downloads/elasticsearch)
+[Download](https://www.elastic.co/downloads/elasticsearch) ElasticSearch- 
 
 ### Kibana
 ##### Important Terms used in Elastic Search-
@@ -69,6 +80,7 @@ Document - It is the basic unit of information which can be indexed. It is expre
 
 Shard - Every index can be split into several shards to be able to distribute data. The shard is the atomic part of an index, which can be distributed over the cluster if you want to add more nodes.
 
-Download Kibana- [Link](https://www.elastic.co/downloads/kibana)
+[Download](https://www.elastic.co/downloads/kibana) Kibana- 
 
 
+### Running Elasticsearch from the command line-
