@@ -1,7 +1,8 @@
 # Elastic-Search-Logstash-Kibana-ELK-Stack-
 Big Data Tools
+For Big Data Analysis, Log Analysis and Monitoring modern applications.
 
-## Prerequisites-
+##### Prerequisites-
 Java Runtime
 
 Verify installed version of Java Runtime Environment or install it. Latest JDK is strongly recommended.
@@ -12,11 +13,9 @@ Check system variables. Required environment variable: JAVA_HOME pointing to ins
 JAVA_HOME: C:\Program Files\Java\jre1.8.0_73
 
 
-For Big Data Analysis, Log Analysis and Monitoring modern applications.
+"ELK" is the acronym for three open source projects: Elasticsearch, Logstash, and Kibana. Elasticsearch is a search and analytics engine. Logstash is a server‑side data processing pipeline that ingests data from multiple sources simultaneously, transforms it, and then sends it to a "stash" like Elasticsearch. Kibana lets users visualize data with charts and graphs in Elasticsearch. 
 
 Log management and analytics solution that enables engineers to overcome the challenge of monitoring what are highly distributed, dynamic and noisy environments. 
-
-"ELK" is the acronym for three open source projects: Elasticsearch, Logstash, and Kibana. Elasticsearch is a search and analytics engine. Logstash is a server‑side data processing pipeline that ingests data from multiple sources simultaneously, transforms it, and then sends it to a "stash" like Elasticsearch. Kibana lets users visualize data with charts and graphs in Elasticsearch. 
 
     E stands for ElasticSearch: used for storing logs
     L stands for LogStash : used for both shipping as well as processing and storing logs
@@ -37,15 +36,15 @@ Logstash can unify data from disparate sources and normalize the data into your 
 
 It consists of three components:
 
-Input: passing logs to process them into machine understandable format
-Filters: It is a set of conditions to perform a particular action or event
-Output: Decision maker for processed event or log 
+Input: passing logs to process them into machine understandable format.<br/>
+Filters: It is a set of conditions to perform a particular action or event.<br/>
+Output: Decision maker for processed event or log.<br/>
 
-Features of Logstash
+Features of Logstash-
 
-Events are passed through each phase using internal queues
-Allows different inputs for your logs
-Filtering/parsing for your logs
+Events are passed through each phase using internal queues.<br/>
+Allows different inputs for your logs.<br/>
+Filtering/parsing for your logs.<br/>
 
 [Download](https://www.elastic.co/downloads/logstash) Logstash- 
 
@@ -56,14 +55,14 @@ Elasticsearch also allows you to store, search and analyze big volume of data. I
 
 Features of Elastic search:
 
-Open source search server is written using Java
-Used to index any kind of heterogeneous data
-Has REST API web-interface with JSON output
-Full-Text Search
-Near Real Time (NRT) search
-Sharded, replicated searchable, JSON document store
-Schema-free, REST & JSON based distributed document store
-Multi-language & Geolocation support 
+Open source search server is written using Java.<br/>
+Used to index any kind of heterogeneous data.<br/>
+Has REST API web-interface with JSON output.<br/>
+Full-Text Search.<br/>
+Near Real Time (NRT) search.<br/>
+Sharded, replicated searchable, JSON document store.<br/>
+Schema-free, REST & JSON based distributed document store.<br/>
+Multi-language & Geolocation support.<br/>
     
 [Download](https://www.elastic.co/downloads/elasticsearch) ElasticSearch- 
 
@@ -83,4 +82,8 @@ Shard - Every index can be split into several shards to be able to distribute da
 [Download](https://www.elastic.co/downloads/kibana) Kibana- 
 
 
-### Running Elasticsearch from the command line-
+### Elasticsearch in Detail-
+
+* Configuration-
+
+Location of configuration file: {install-path}\config\elasticsearch.yml. This is a text file using YAML format and that can be edited in any text editor.
